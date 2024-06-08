@@ -1,22 +1,21 @@
 # Tokyo-Azure-Spark
 
-Este proyecto utiliza Azure, Apache Spark y Python para procesar y analizar datos olímpicos. A continuación, se describen los principales componentes y tecnologías utilizadas en el proyecto:
+This project uses Azure, Apache Spark, and Python to process and analyze Olympic data. Below are the main components and technologies used in the project:
 
-## Tecnologías Utilizadas
-- **Azure**: La plataforma de nube de Microsoft utilizada para el almacenamiento y procesamiento de datos.
-- **Apache Spark**: Un motor de análisis unificado para el procesamiento de grandes volúmenes de datos.
-- **Python**: El lenguaje de programación utilizado para escribir los scripts de procesamiento y análisis de datos.
+## Technologies Used
+- **Azure**: Microsoft's cloud platform used for data storage and processing.
+- **Apache Spark**: A unified analytics engine for processing large volumes of data.
+- **Python**: The programming language used to write data processing and analysis scripts.
 
-## Descripción del Proyecto
-Este proyecto tiene como objetivo procesar y analizar datos olímpicos para extraer información valiosa sobre los atletas, sus entrenadores, los equipos y los eventos. Los datos se almacenan en Azure y se procesan utilizando Apache Spark para manejar grandes volúmenes de datos de manera eficiente.
+## Project Description
+The goal of this project is to process and analyze Olympic data to extract valuable information about athletes, their coaches, teams, and events. The data is stored in Azure and processed using Apache Spark to efficiently handle large volumes of data.
 
-### Estructura del Proyecto
-- **CSVs/**: Contiene todos los archivos CSV con los datos olímpicos.
+### Project Structure
+- **CSVs/**: Contains all the CSV files with Olympic data.
   - `Athletes.csv`
   - `Coaches.csv`
   - `EntriesGender.csv`
   - `Medals.csv`
   - `Teams.csv`
-- **tokyo_olympic.ipynb**: El cuaderno de Jupyter que contiene los scripts de procesamiento y análisis de datos.
-
+- **tokyo_olympic.ipynb**: The Jupyter notebook containing the data processing and analysis scripts.
 
